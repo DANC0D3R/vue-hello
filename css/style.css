@@ -1,6 +1,26 @@
 /* RESET */
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1200px;
+
+    margin: 2% auto;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+section img{
+    width: 60vw;
+
+    margin-top: 1%;
 }

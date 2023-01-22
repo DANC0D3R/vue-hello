@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Daniele Minieri">
-    <title>Vue Hello</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Daniele Minieri">
+        <title>Vue Hello</title>
 
-    <!-- Stile -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <main>
-        
-    </main>
-    <!-- Script -->
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-</body>
+        <!-- Stile -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section id="app">
+            <h1>{{message}}</h1>
+            <img :src="imageSource" :alt="message">
+        </section>
+        <!-- Vuejs -->
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <!-- Javascript -->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
 </html>
